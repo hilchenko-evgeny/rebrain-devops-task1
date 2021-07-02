@@ -22,8 +22,8 @@ HTTP proxy and Web server features of nginx:
 * URL rewriting and redirection
 
 NGINX it's a company. And here are the products of this company:
-[NGINX Plus](https://www.nginx.com/products/nginx)
-[NGINX Controller](https://www.nginx.com/products/nginx-controller)
-[NGINX App Protect](https://www.nginx.com/products/nginx-app-protect)
-[NGINX Unit](https://www.nginx.com/products/nginx-unit)
-[NGINX Amplify](https://www.nginx.com/products/nginx-unit)
+[NGINX Plus](https://www.nginx.com/products/nginx) \
+[NGINX Controller](https://www.nginx.com/products/nginx-controller) \
+[NGINX App Protect](https://www.nginx.com/products/nginx-app-protect) \
+[NGINX Unit](https://www.nginx.com/products/nginx-unit) \
+[NGINX Amplify](https://www.nginx.com/products/nginx-unit) \
