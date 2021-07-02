@@ -20,3 +20,10 @@ HTTP proxy and Web server features of nginx:
 * WebSockets since 1.3.13, including acting as a reverse proxy and do load balancing of WebSocket applications
 * HTTP/1.1 Upgrade (101 Switching Protocols), HTTP/2 protocol support
 * URL rewriting and redirection
+
+NGINX it's a company. And here are the products of this company:
+[NGINX Plus](https://www.nginx.com/products/nginx)
+[NGINX Controller](https://www.nginx.com/products/nginx-controller)
+[NGINX App Protect](https://www.nginx.com/products/nginx-app-protect)
+[NGINX Unit](https://www.nginx.com/products/nginx-unit)
+[NGINX Amplify](https://www.nginx.com/products/nginx-unit)
