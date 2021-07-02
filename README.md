@@ -31,7 +31,7 @@ NGINX it's a company. And here are the products of this company:
 
 Logo NGINX:
 
-![logo-nginx](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)
+![logo-nginx](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/512px-Nginx_logo.svg.png)
 
 Nginx and Apache both are the most popular web servers:
 | Nginx | Apache |
@@ -43,3 +43,38 @@ Nginx and Apache both are the most popular web servers:
 | third-party modules integrates in core | dynamically loadable modules |
 | security controls out-of-the-box | only denial-of-service (DoS) security |
 | better performance, multi-functional | suitable for shared hosting |
+
+Example of configuration files Nginx and Apache via HTTP
+
+Nginx:
+```server {
+    listen 80 default_server;
+    server_name www.rebrainme.com;
+
+    location /devops/ {
+        root /var/www/html/rebrain-tasks;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html =404;
+    }
+    location /k8s/ {
+        root /var/www/html/rebrain-k8s;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html =404;
+    }
+}```
+
+Apache:
+```Listen 80
+NameVirtualHost *:80
+
+SSLStrictSNIVHostCheck off
+
+<VirtualHost *:80>
+  DocumentRoot /var/www/html/rebrain
+  ServerName www.rebrainme.com
+</VirtualHost>
+
+<VirtualHost *:80>
+  DocumentRoot /var/www/html/rebrain-lk
+  ServerName www.lk.rebrainme.com
+</VirtualHost>```
