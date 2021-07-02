@@ -47,7 +47,8 @@ Nginx and Apache both are the most popular web servers:
 Example of configuration files Nginx and Apache via HTTP
 
 Nginx:
-```server {
+```
+server {
     listen 80 default_server;
     server_name www.rebrainme.com;
 
@@ -61,11 +62,12 @@ Nginx:
         index index.html index.htm;
         try_files $uri $uri/ /index.html =404;
     }
-}```
-
+}
+```
 
 Apache:
-```Listen 80
+```
+Listen 80
 NameVirtualHost *:80
 
 SSLStrictSNIVHostCheck off
@@ -78,4 +80,5 @@ SSLStrictSNIVHostCheck off
 <VirtualHost *:80>
   DocumentRoot /var/www/html/rebrain-lk
   ServerName www.lk.rebrainme.com
-</VirtualHost>```
+</VirtualHost>
+```
