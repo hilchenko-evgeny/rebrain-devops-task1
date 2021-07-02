@@ -22,7 +22,7 @@ HTTP proxy and Web server features of nginx:
 * URL rewriting and redirection
 
 NGINX it's a company. And here are the products of this company:
-\ [NGINX Plus](https://www.nginx.com/products/nginx) \
+[NGINX Plus](https://www.nginx.com/products/nginx) \
 [NGINX Controller](https://www.nginx.com/products/nginx-controller) \
 [NGINX App Protect](https://www.nginx.com/products/nginx-app-protect) \
 [NGINX Unit](https://www.nginx.com/products/nginx-unit) \
@@ -31,3 +31,14 @@ NGINX it's a company. And here are the products of this company:
 Logo NGINX:
 
 ![logo-nginx](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)
+
+Nginx and Apache both are the most popular web servers:
+Nginx | Apache
+------| ------
+free to use, open-source | free, open-source
+multiple connections to single process | thread to connection
+caches the static files | handle dynamic content internally
+doesn’t support directory-level configuration | per-directory via .htaccess
+third-party modules integrates in core | dynamically loadable modules
+security controls out-of-the-box | only denial-of-service (DoS) security
+better performance, multi-functional | suitable for shared hosting
