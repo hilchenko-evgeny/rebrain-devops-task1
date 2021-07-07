@@ -1,5 +1,8 @@
 В данном репозитории находится дефолтный конфигурационный файл nginx.conf, который был скачан с официального репозитория https://github.com/nginx/nginx/blob/master/conf/nginx.conf.
 
+# Перед прочтением, помните выражение Стива Джобса:
+> Работать нужно не 12 часов, а головой!
+
 ### Partners nginx:
 1. Amazon Web Services
 2. Google Cloud Platform
