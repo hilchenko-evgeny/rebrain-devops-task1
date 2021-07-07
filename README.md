@@ -1,13 +1,13 @@
 В данном репозитории находится дефолтный конфигурационный файл nginx.conf, который был скачан с официального репозитория https://github.com/nginx/nginx/blob/master/conf/nginx.conf.
 
-Partners nginx:
+### Partners nginx:
 1. Amazon Web Services
 2. Google Cloud Platform
 3. IBM
 4. Microsoft Azure
 5. Red Hat
 
-HTTP proxy and Web server features of nginx:
+## HTTP proxy and Web server features of nginx:
 * Ability to handle more than 10,000 simultaneous connections with a low memory footprint (~2.5 MB per 10k inactive HTTP keep-alive connections)
 * Handling of static files, index files and auto-indexing
 * Reverse proxy with caching
@@ -21,15 +21,14 @@ HTTP proxy and Web server features of nginx:
 * HTTP/1.1 Upgrade (101 Switching Protocols), HTTP/2 protocol support
 * URL rewriting and redirection
 
-NGINX it's a company. And here are the products of this company:
-
+## NGINX it's a company. And here are the products of this company:
 [NGINX Plus](https://www.nginx.com/products/nginx) \
 [NGINX Controller](https://www.nginx.com/products/nginx-controller) \
 [NGINX App Protect](https://www.nginx.com/products/nginx-app-protect) \
 [NGINX Unit](https://www.nginx.com/products/nginx-unit) \
 [NGINX Amplify](https://www.nginx.com/products/nginx-unit)
 
-Logo NGINX:
+### Logo NGINX:
 
 ![logo-nginx](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/512px-Nginx_logo.svg.png)
 
@@ -44,7 +43,7 @@ Nginx and Apache both are the most popular web servers:
 | security controls out-of-the-box | only denial-of-service (DoS) security |
 | better performance, multi-functional | suitable for shared hosting |
 
-Example of configuration files Nginx and Apache via HTTP
+# Example of configuration files Nginx and Apache via HTTP
 
 Nginx:
 ```
